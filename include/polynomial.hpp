@@ -23,7 +23,6 @@ public:
     {
         count = cnt;
         std::vector<T> coef1(cnt);
-        std::fill(coef1.begin(), coef1.end(), 0);
         coef = coef1;
     }
     Polynomial(const Polynomial<T>& rhs)
